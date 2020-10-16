@@ -1,16 +1,16 @@
-package com.example.demo;
+package com.example.demo.payload;
 
 public class IntegerPayload extends BasePayload<Integer> {
 
     private int value;
 
     @Override
-    Integer get() {
+    public Integer get() {
         return value;
     }
 
     @Override
-    void set(Integer value) {
+    public void set(Integer value) {
         this.value = value;
     }
 }

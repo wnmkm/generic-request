@@ -1,5 +1,7 @@
-package com.example.demo;
+package com.example.demo.dto;
 
+import com.example.demo.payload.IntegerPayload;
+import com.example.demo.payload.StringPayload;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;

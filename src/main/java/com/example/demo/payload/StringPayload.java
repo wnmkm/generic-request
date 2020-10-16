@@ -1,15 +1,15 @@
-package com.example.demo;
+package com.example.demo.payload;
 
 public class StringPayload extends BasePayload<String> {
     String value;
 
     @Override
-    String get() {
+    public String get() {
         return value;
     }
 
     @Override
-    void set(String value) {
+    public void set(String value) {
         this.value = value;
     }
 }
